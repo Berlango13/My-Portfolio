@@ -406,33 +406,7 @@ footer .social-icons img:hover {
 .button-link:hover {
   background-color: #555;
 }
-
-
-
-@media (max-width: 1024px) {
-  .project-card {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .project-card img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 1rem;
-  }
-
-  .media-item video {
-    max-width: 100%;
-  }
-
-  main h2 {
-    font-size: 1.8rem;
-  }
-
-  main p {
-    font-size: 0.95rem;
-  }
-}
+ 
 
 @media (max-width: 768px) {
   nav {
@@ -456,7 +430,7 @@ footer .social-icons img:hover {
   display: flex;
   gap: 2rem;
   align-items: flex-start;
-  flex-wrap: wrap; /* makes it responsive */
+  flex-wrap: wrap; 
 }
 
 .my-details {
